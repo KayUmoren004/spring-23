@@ -45,24 +45,23 @@ img {
   border-radius: 4px;
 }
 
-/* Ordered List */
 .my-oList {
-  color: red;
+  list-style: square;
+  color: #ff0000;
 }
 
-/* Unordered List */
 .my-uList {
+  list-style: lower-roman;
   color: blue;
 }
 
-/* Table */
 .my-table {
   border-collapse: collapse;
 }
 
 .my-table th {
   background-color: gray;
-  color: #ffffff;
+  color: white;
 }
 
 .my-table td,
@@ -71,12 +70,50 @@ img {
   border: 1px solid black;
 }
 
+/* Tables */
 table {
+  border-collapse: collapse;
   width: 100%;
 }
 
+/* Table Headers */
 th,
 td {
-  padding: 10px;
-  text-align: center;
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Table Rows */
+th {
+  background-color: #f2f2f2;
+}
+
+/* Table Rows */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* List Items */
+li {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+}
+
+/* Ordered Lists */
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ordered List Items */
+ol li {
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
 }
